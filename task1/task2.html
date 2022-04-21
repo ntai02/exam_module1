@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("moi chon so")
+        let b = +prompt("moi chon so")
+      function check(x) {
+          let number = 0
+          for (let i = 0; i < x; i++) {
+              if (x % i === 0)
+              number = number + i
+          }return number;
+      }
+      if (check(a)===b && check(b)=== a) {
+          alert("true")
+      } else{
+          alert("false")
+      }
+    </script>
+</body>
+</html>
